@@ -1,9 +1,11 @@
 # h1viisikko
 x) Karvinen 2023: Create a Web Page Using Github,
-- Tiivistelmä siitä, miten nettisivut voidaan luoda käyttäen githubia
+- Aloitusystävällinen tiivistelmä siitä, miten nettisivut voidaan luoda käyttäen githubia.
 - Ohjeet selkeät kuvien kanssa, mitkä auttavat hahmottamaan paremmin.
+
 x) Karvinen 2023: Run Salt Command Locally
-- Ohjeet miten pyörittää salt komentoja paikallisesti.
+- Ohjeet, miten pyörittää salt komentoja paikallisesti.
+
 a) Ladattu
 
 b)  sudo salt-call --local -l info state.single pkg.installed tree komento, joka mainittiin Karvinen 2023: Run Salt Command Locally, avasi terminaalissa 
