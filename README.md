@@ -5,8 +5,10 @@ x) Karvinen 2023: Create a Web Page Using Github,
 
 x) Karvinen 2023: Run Salt Command Locally
 - Ohjeet, miten pyörittää salt komentoja paikallisesti.
+- Komennot tilafunktioista: pkg, file, service, user, cmd.
 
 a) Ladattu
+
 
 b)  sudo salt-call --local -l info state.single pkg.installed tree komento, joka mainittiin Karvinen 2023: Run Salt Command Locally, avasi terminaalissa 
 
