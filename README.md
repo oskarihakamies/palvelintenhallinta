@@ -1,12 +1,37 @@
 # h1viisikko
-x) Karvinen 2023: Create a Web Page Using Github,
-- Aloitusystävällinen tiivistelmä siitä, miten nettisivut voidaan luoda käyttäen githubia.
-- Ohjeet selkeät kuvien kanssa, mitkä auttavat hahmottamaan paremmin.
 
 
-x) Karvinen 2023: Run Salt Command Locally
+x) 
+
+
+Karvinen 2025: Install Salt on Debian 13 Trixie
+-
+-
+
+
+
+Karvinen 2023: Run Salt Command Locally
 - Ohjeet, miten pyörittää salt komentoja paikallisesti.
 - Komennot tilafunktioista: pkg, file, service, user, cmd.
+
+
+
+
+Karvinen 2018: Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux
+-
+-
+
+
+
+Karvinen 2006: Raportin kirjoittaminen
+-
+-
+
+
+
+
+
+
 
 
 a) Ladattu
