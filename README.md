@@ -4,26 +4,26 @@
 x) 
 
 
-Karvinen 2025: Install Salt on Debian 13 Trixie
+## Karvinen 2025: Install Salt on Debian 13 Trixie
 -
 -
 
 
 
-Karvinen 2023: Run Salt Command Locally
+## Karvinen 2023: Run Salt Command Locally
 - Ohjeet, miten pyörittää salt komentoja paikallisesti.
 - Komennot tilafunktioista: pkg, file, service, user, cmd.
 
 
 
 
-Karvinen 2018: Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux
+## Karvinen 2018: Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux
 -
 -
 
 
 
-Karvinen 2006: Raportin kirjoittaminen
+## Karvinen 2006: Raportin kirjoittaminen
 -
 -
 
