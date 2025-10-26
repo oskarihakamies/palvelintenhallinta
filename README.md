@@ -5,27 +5,30 @@ x)
 
 
 ## Karvinen 2025: Install Salt on Debian 13 Trixie
--
--
+- Ohjeet saltin asennukselle debianissa. 
+-Lyhyt ja ytimekäs selostus saltista, että mitä se tekee ja mihin sitä voi käyttää.
+- Hyvin kirjoitettua komentoja, joita itse voi kopioida omalla alustalla ja käyttää seuraavissa tehtävänannoissa. 
 
 
 
 ## Karvinen 2023: Run Salt Command Locally
 - Ohjeet, miten pyörittää salt komentoja paikallisesti.
 - Komennot tilafunktioista: pkg, file, service, user, cmd.
-
+- hyvä ja tiivis ohjeistus. 
 
 
 
 ## Karvinen 2018: Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux
--
--
+- Ohjeistus saltissa "masterin" ja "slaven" käyttöön saltissa.
+- Slavella tarkoitetaan ohjattua tietokonetta, joka voi olla esimerkiksi palomuurin tai NAT:in takana. Ohjeella mainitaan tämä ja kuinka Master kone on se, jolla voi tehdä muutokset orjakoneisiin.
+- Mielestäni mielenkiintoinen aihe ja ohjeet ovat hyvät siihen, että itse pääsen kokeilemaan master/slave kombinaatiota debianilla.
 
 
 
 ## Karvinen 2006: Raportin kirjoittaminen
--
--
+- Ohjeet raportin kirjoittamiselle teknisille töille. Esimerkiksi tämän kurssin raportin kirjoittamiselle. 
+- Hyvä neuvonta siihen, miten raporttia pitää tehdä samalla, kun työskentelee esimerkiksi eri distroissa. Paljon kätevämpää, sillä sitten ei jää vahingossa jotain välistä.
+- Tärkeä tuo kohta 'pahoista mokista', joita raporttia tehdessä ei saisi tehdä. 
 
 
 
