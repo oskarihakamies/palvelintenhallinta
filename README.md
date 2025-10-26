@@ -34,27 +34,6 @@ x)
 
 
 
-a) Ladattu
-
-oskari
-
-b)  sudo salt-call --local -l info state.single pkg.installed tree komento, joka mainittiin Karvinen 2023: Run Salt Command Locally, avasi terminaalissa
-
-<img width="276" alt="image" src="https://github.com/oskarihakamies/h1viisikko/assets/132085910/07445b7c-2cf6-409e-aa91-9ddd0ba08b79">
-
-- File tilafunktio on tarkoitettu tiedostojen hallintaan. Eli poistoon, lataamiseen ja muuttamiseen.
-
-
-- Oma analyysi antaessani salt komentoja sain erroria serivce komennoilla. Komentoa silti käytetään palvelinten hallintaan.  <img width="379" alt="image" src="https://github.com/oskarihakamies/h1viisikko/assets/132085910/5fb78bb1-a034-474f-9f2d-76c86600b08d">
-
-- Tilafunktio user käytetään eri käyttäjätilien hallintaan palvelimen sisällä. <img width="243" alt="image" src="https://github.com/oskarihakamies/h1viisikko/assets/132085910/d91169d7-cc7d-4f21-a739-ea8a7dec6dee">
-
-Karvinen 2023: Run Salt Command Locally, kerrotaan hyvin ohjeilla tilafunktioista, joten tehtävänteko onnistui. 
-
-
-
-
-
 
 a) <img width="584" height="211" alt="image" src="https://github.com/user-attachments/assets/201d9ee0-aabc-4be7-ba0e-df1438d7604d" />
 
