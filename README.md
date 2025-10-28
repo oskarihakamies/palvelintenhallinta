@@ -47,10 +47,22 @@ Debian ladattu.
 
 b)
 
-<img width="314" height="46" alt="image" src="https://github.com/user-attachments/assets/162c59e5-c3b1-431b-924d-c92a83cd2153" />
+Päivitin aluksi paketit ja varmistin, että ne olivat ajantasalla. 
 
 
-Salt-minion asennettu. 
+<img width="367" height="83" alt="image" src="https://github.com/user-attachments/assets/2ee231fa-1e55-490c-a58c-134722d0deae" />
+
+
+Tämän jälkeen asensin salt-minionin komennolla sudo apt-get -y install salt-minion.
+
+Jonka jälkeen varmistin sen olevan asennettu. 
+
+<img width="376" height="53" alt="image" src="https://github.com/user-attachments/assets/b072833e-3261-460d-9586-3c87212e74f9" />
+
+
+Salt versiona toimii 3007.8 (Chlorine)
+
+Salt-minion asennettu onnistuneesti. 
 
 
 c) 
