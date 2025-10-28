@@ -49,15 +49,17 @@ b)
 
 Päivitin aluksi paketit ja varmistin, että ne olivat ajantasalla. 
 
+<img width="626" height="79" alt="image" src="https://github.com/user-attachments/assets/90332427-c19a-4539-be19-43a35a7d9aad" />
 
-<img width="367" height="83" alt="image" src="https://github.com/user-attachments/assets/2ee231fa-1e55-490c-a58c-134722d0deae" />
+
 
 
 Tämän jälkeen asensin salt-minionin komennolla sudo apt-get -y install salt-minion.
 
 Jonka jälkeen varmistin sen olevan asennettu. 
 
-<img width="376" height="53" alt="image" src="https://github.com/user-attachments/assets/b072833e-3261-460d-9586-3c87212e74f9" />
+
+<img width="469" height="41" alt="image" src="https://github.com/user-attachments/assets/7ee87aa3-6a7f-4d0e-8b3a-175329979441" />
 
 
 Salt versiona toimii 3007.8 (Chlorine)
