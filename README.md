@@ -110,7 +110,7 @@ Sama state.single, jota käytin Karvinen 2023: Run Salt Command Locally sivulta 
 
 
 
-user: käyttäjänhallinta. Koska samassa localissa state.single tilassa 
+user: käyttäjänhallinta. Tämä näyttää vain oman käyttäjäni olevan ajan tasalla ja paikalla. 
 
 
 <img width="514" height="174" alt="image" src="https://github.com/user-attachments/assets/83549de8-a636-45ad-a005-6507bc429725" />
@@ -118,11 +118,15 @@ user: käyttäjänhallinta. Koska samassa localissa state.single tilassa
 
 
 
+cmd: ajaa komentoja ja on olennainen päivityksissä. Esimerkkinä tähän voisi olla komennon sudo salt-call --local -l info state.single cmd.run 'touch /tmp/foo' creates="/tmp/foo" ajaminen, joka luo tyhjän tiedoston /tmp/foo. 
+
+
+
+<img width="616" height="239" alt="image" src="https://github.com/user-attachments/assets/083ea56a-c779-4953-9666-3c9b08bfe042" />
 
 
 
 
-cmd: ajaa komentoja ja on olennainen päivityksissä
 
 
 
