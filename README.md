@@ -69,9 +69,16 @@ Salt-minion asennettu onnistuneesti.
 
 c) 
 
-pkg: varmistaa paketin olemassaolon esim. apachen. 
+pkg: saltissa pkg.installed tarkemmin. Latasin komennolla sudo salt-call --local -l info state.single pkg.installed tree 'tree' ohjelman ja state.singlella funktio pkg.installed todisti asennuksen onnistuneen. 
 
-file: hallitsee tiedostoja
+
+<img width="378" height="242" alt="image" src="https://github.com/user-attachments/assets/9496318e-4e31-4e05-9fa3-36ad0666da48" />
+
+State.single komennon avulla sain selville myös tree paketin latauksen keston, mikä kesti 7935ms. Ja samalla muutokset, sekä virheet. Tuloksena muodostui Succeeded: 1 ja Failed: 0
+
+
+
+file: hallitsee tiedostoja. Esimerkiksi 
 
 service: hallitsee palveluita esim. apache2
 
