@@ -78,11 +78,49 @@ State.single komennon avulla sain selville myös tree paketin latauksen keston, 
 
 
 
-file: hallitsee tiedostoja. Esimerkiksi 
+file: hallitsee tiedostoja. Toinen tilafunktio on file tässä tapauksessa file.managed. toi taas esille paikallisessa state.single tilassa tiedot templaten luomiseen. 
 
-service: hallitsee palveluita esim. apache2
 
-user: käyttäjänhallinta
+<img width="482" height="215" alt="image" src="https://github.com/user-attachments/assets/809b02a3-d2a7-4654-8f98-f2e08935ce6a" />
+
+Kuten huomaamme, niin se näyttää että tiedosto luotiin onnistuneesti ja se kertoo taas aloitusajan, keston (eli kauan kesti luoda tiedosto) ja kommentin, että onnistuiko luominen. 
+
+
+<img width="588" height="224" alt="image" src="https://github.com/user-attachments/assets/c236bf74-de67-4ae9-afe1-79ee5586a98a" />
+
+
+
+Tässä myös näkyy /tmp/hellooskari poistettuna funktiolla file.absent. 
+
+<img width="320" height="201" alt="image" src="https://github.com/user-attachments/assets/df9a624a-a18f-40cc-8a0f-83f07e4a88b9" />
+
+
+
+
+service: hallitsee palveluita esim. apache2. Tässä tapauksessa funktio service.running epäonnistui minulta. 
+
+<img width="469" height="187" alt="image" src="https://github.com/user-attachments/assets/a8afab9f-31ea-422d-99d0-6220356a45d8" />
+
+Kyseessä oleva epäonnistuminen johtuu siitä, että apache2 ei pyöri taustalla tai sitä ei vielä ole asennettu VM:ssäni debian distrolle. Asensin siis apachen komennolla *sudo apt install apache2* ja sain komennon toimintaan. 
+
+<img width="501" height="189" alt="image" src="https://github.com/user-attachments/assets/f121b133-c016-4053-855c-a3d5845c701c" />
+
+Sama state.single, jota käytin Karvinen 2023: Run Salt Command Locally sivulta komennolla antoi minulle onnistuneen state.single summaryn localissa. Apache oli siis toiminnassa ja kesto nopea, sillä se oli jo toiminnassa, eikä latauksia tarvinnut mitata. 
+
+
+
+
+user: käyttäjänhallinta. Koska samassa localissa state.single tilassa 
+
+
+<img width="514" height="174" alt="image" src="https://github.com/user-attachments/assets/83549de8-a636-45ad-a005-6507bc429725" />
+
+
+
+
+
+
+
 
 cmd: ajaa komentoja ja on olennainen päivityksissä
 
