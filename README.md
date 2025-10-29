@@ -5,27 +5,36 @@ x)
 
 
 ## Karvinen 2025: Install Salt on Debian 13 Trixie
+
+
 - Ohjeet saltin asennukselle debianissa. 
 -Lyhyt ja ytimekäs selostus saltista, että mitä se tekee ja mihin sitä voi käyttää.
-- Hyvin kirjoitettua komentoja, joita itse voi kopioida omalla alustalla ja käyttää seuraavissa tehtävänannoissa. 
+- Hyvin kirjoitettua komentoja, joita itse voi kopioida omalla alustalla ja käyttää seuraavissa tehtävänannoissa.
+- wget hyvä myös saltin lataamiseen. 
 
 
 
 ## Karvinen 2023: Run Salt Command Locally
+
+
 - Ohjeet, miten pyörittää salt komentoja paikallisesti.
 - Komennot tilafunktioista: pkg, file, service, user, cmd.
-- hyvä ja tiivis ohjeistus. 
-
+- hyvä ja tiivis ohjeistus.
+- Viidestä saltin tilafunktiosta tärkeät komennot. Tehtävien tekoa helpotti huomattavasti. 
 
 
 ## Karvinen 2018: Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux
+
 - Ohjeistus saltissa "masterin" ja "slaven" käyttöön saltissa.
 - Slavella tarkoitetaan ohjattua tietokonetta, joka voi olla esimerkiksi palomuurin tai NAT:in takana. Ohjeella mainitaan tämä ja kuinka Master kone on se, jolla voi tehdä muutokset orjakoneisiin.
 - Mielestäni mielenkiintoinen aihe ja ohjeet ovat hyvät siihen, että itse pääsen kokeilemaan master/slave kombinaatiota debianilla.
+- 
 
 
 
 ## Karvinen 2006: Raportin kirjoittaminen
+
+
 - Ohjeet raportin kirjoittamiselle teknisille töille. Esimerkiksi tämän kurssin raportin kirjoittamiselle. 
 - Hyvä neuvonta siihen, miten raporttia pitää tehdä samalla, kun työskentelee esimerkiksi eri distroissa. Paljon kätevämpää, sillä sitten ei jää vahingossa jotain välistä.
 - Tärkeä tuo kohta 'pahoista mokista', joita raporttia tehdessä ei saisi tehdä. 
@@ -136,13 +145,14 @@ Idempotenssi on matematiikassa ja tietotekniikassa ominaisuus, missä yhtä toim
 
 
 
-Idempotenssi ilmenee tässä salt-call --local komennossa siten, että se ei enää ensimmäisen komennon jälkeen samaa lopputulosta.  
-
-<img width="364" height="119" alt="image" src="https://github.com/user-attachments/assets/d2774f9f-4ad5-4d78-ad38-09c878b978e4" />
+Idempotenssi ilmenee näissä tehtävissä siis siten, että ajaessani salt-call --local komentoja oli lopputulos samanlainen, vaikka toistin komennon uudestaan. Se siis näytti vain tilatiedon, eikä muuttanut mitään esim. luodessa tiedostoa /tmp/foo. Se siis vain tarkistaa ja raportoi tämänlaisesti: 
 
 
+<img width="527" height="258" alt="image" src="https://github.com/user-attachments/assets/ff993a62-2284-4d49-a251-0e6743a5030c" />
 
-<img width="347" height="65" alt="image" src="https://github.com/user-attachments/assets/3a34a258-4484-49db-add4-1051a734d6bf" />
+
+
+
 
 
 
